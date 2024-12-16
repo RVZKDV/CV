@@ -1,0 +1,66 @@
+.projet-vignettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.projet-vignette {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+.image_projet {
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+.projet-vignette img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px; /* Coins arrondis pour l'image */
+    border-top-right-radius: 15px; /* Coins arrondis pour l'image */
+}
+
+.projet-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.projet-details h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.projet-details p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+img {
+    max-width : 55%;
+    height : auto;
+    texte-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}

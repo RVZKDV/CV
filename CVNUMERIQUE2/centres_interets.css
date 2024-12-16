@@ -1,0 +1,61 @@
+#centres-interets{
+    color:white;
+}
+h2{
+    text-align: center;
+}
+
+#centres-interets {
+    text-align: center;
+    font-size: 1em;
+    width: 100%; /* Assurer que le conteneur prend toute la largeur */
+}
+
+nav {
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+.interet-image {
+    margin: auto;
+}
+.interet-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.interet-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Cadre semi-opaque */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    max-width: 45%; /* Ajuste cette valeur selon l'espace désiré */
+    text-align: center; /* Aligner le texte à gauche */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Assure que l'image est en bas */
+    margin: 50px;
+}
+
+.interet-text {
+    padding: 15px;
+    color: black; /* Texte en noir pour meilleure lisibilité */
+    text-align: center;
+}
+
+.interet-image {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img {
+    max-width : 70%;
+    height : auto;
+    texte-align: center;
+}
