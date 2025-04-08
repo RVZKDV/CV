@@ -1,69 +1,66 @@
-#competences {
-    color: white;
+.competence-vignettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+.competence-vignette {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
-
 nav {
     color:white;
     text-align: center;
     font-size: 1.5em;
   }
 
-main {
-    padding: 20px;
+.competence_projet {
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+.competence-vignette img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px; /* Coins arrondis pour l'image */
+    border-top-right-radius: 15px; /* Coins arrondis pour l'image */
+}
+
+.competence-details {
+    padding: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Centre les éléments verticalement */
-    height: calc(100vh - 100px); /* Ajuste la hauteur pour exclure la hauteur du header et du footer */
+    flex-grow: 1;
+}
+
+.competence-details h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.competence-details p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+img {
+    max-width : 25%;
+    height : auto;
+    texte-align: center;
 }
 
 h2 {
-    text-align:center;
+    text-align: center;
     color: white;
-    padding: 20px;
-}
-
-#competences {
-    text-align: center;
-    font-size: 1em;
-    width: 100%; /* Assurer que le conteneur prend toute la largeur */
-}
-
-h3{
-    text-align: center;
-}
-
-.competences-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-}
-
-.competences-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Cadre semi-opaque */
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    flex: 1;
-    max-width: 45%; /* Ajuste cette valeur selon l'espace désiré */
-    text-align: left; /* Aligner le texte à gauche */
-}
-
-.competences-text {
-    padding: 15px;
-    color: black; /* Texte en noir pour meilleure lisibilité */
-}
-
-.competence-image {
-    max-width : 22%;
-    height : auto;
 }

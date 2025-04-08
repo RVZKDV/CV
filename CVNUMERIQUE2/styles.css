@@ -8,6 +8,10 @@ body, html {
 
 }
 
+p {
+    text-align: justify;
+}
+
 header {
 
     color: white;
